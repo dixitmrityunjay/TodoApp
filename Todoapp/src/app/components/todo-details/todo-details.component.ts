@@ -42,7 +42,7 @@ export class TodoDetailsComponent {
     });
   }
 
-  updatePublished(status: boolean): void {
+  updateMark(status: boolean): void {
     const data = {
       title: this.currentTodo.title,
       description: this.currentTodo.description,

@@ -44,10 +44,10 @@
       </div>
     </form>
 
-    <button class="badge badge-primary mr-2" *ngIf="currentTodo.mark" (click)="updatePublished(false)">
+    <button class="badge badge-primary mr-2" *ngIf="currentTodo.mark" (click)="updateMark(false)">
       UnMark as Done
     </button>
-    <button *ngIf="!currentTodo.mark" class="badge badge-primary mr-2" (click)="updatePublished(true)">
+    <button *ngIf="!currentTodo.mark" class="badge badge-primary mr-2" (click)="updateMark(true)">
       Mark as Done
     </button>
 
