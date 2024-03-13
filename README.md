@@ -22,8 +22,9 @@ Welcome to TodoApp! This lightweight task management application is designed to 
    
 4.**Run the Application:**
       npm start
+      ng serve
       
-Visit http://localhost:3000 in your browser to access TodoApp.
+Visit http://localhost:4200 in your browser to access TodoApp.
 
 ## Usage
 
